@@ -1,0 +1,120 @@
+.headerOfPlaylist {
+   display: flex;
+   border-radius: 4px;
+   background: #1c1c1c;
+   width: 498px;
+   /* padding: 36px; */
+   margin-bottom: 29px;
+}
+
+/* #playlist1 {
+   width: 570px;
+height: 540px;
+flex-shrink: 0;
+} */
+
+.trackElement {
+   display: flex;
+   border-radius: 4px;
+   background: #1c1c1c;
+   width: 498px;
+   /* padding: 36px; */
+   height: 48px;
+   margin-bottom:  24px;
+}
+.playlistTitleElement {
+   color: white;
+   margin-left: 60px;
+}
+.artistName {
+   color: #FFF;
+   font-family: SF UI Display;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.title {
+   /* margin-left: 4px; */
+   color: #8A8A8A;
+font-family: SF UI Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.audio {
+   height: 24px;
+   width: 347px;
+   margin-top: 10px;
+   filter: invert(1);
+}
+
+#playlist1 {
+   width: 534px;
+   height: 516px;
+   flex-shrink: 0;
+   border-radius: 4px;
+background: #1C1C1C;
+padding: 24px 0 0 36px;
+margin: 0px 0px 0 64px;
+}
+#playlist2 {
+   width: 534px;
+   height: 516px;
+   flex-shrink: 0;
+   border-radius: 4px;
+background: #1C1C1C;
+padding: 24px 0 0 36px;
+margin: 0px 64px 0 12px;
+}
+#myPlaylists {
+   display: flex;
+   width: 1280px;
+height: 576px;
+background: #121212;
+/* padding: 96px 64px 36px 64px; */
+}
+.artistAndPlayer {
+   margin-left: 12px;
+}
+header {
+   width: 1280px;
+   height: 48px;
+   background: #1C1C1C;
+backdrop-filter: blur(10px);
+}
+h1 {
+   display: flex;
+   color: #FFF;
+height: 96px;
+width: 1280px;
+font-family: SF UI Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+background: #121212;
+margin: 0;
+/* margin: 31px 0 29px 64px; */
+/* line-height: normal; */
+}
+.title-my-playlists {
+   margin: 31px 0 0 64px;
+}
+
+.header {
+   display: flex;
+   margin-left: 64px;
+}
+.title-in-header {
+   color: #F6BD41;
+
+font-family: SF UI Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 8px;
+}
