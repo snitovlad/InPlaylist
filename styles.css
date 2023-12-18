@@ -1,120 +1,124 @@
-.headerOfPlaylist {
-   display: flex;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* ======================= */
+.single-playlist-block {
    border-radius: 4px;
    background: #1c1c1c;
-   width: 498px;
-   /* padding: 36px; */
+   padding: 24px 36px;
+   width: 570px;
+   margin-left: 12px;
+}
+.all-playlists-block {
+   display: flex;
+   max-width: 1280px;
+   background: #121212;
+   padding: 0px 64px 36px 52px;
+}
+.title-playlist {
+   color: #fff;
+   font-family: SF UI Display;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 10px;
+}
+.playlist-header-block {
+   display: flex;
    margin-bottom: 29px;
 }
-
-/* #playlist1 {
-   width: 570px;
-height: 540px;
-flex-shrink: 0;
-} */
-
-.trackElement {
+.playlist-header-titles-block {
+   margin-left: 24px;
+}
+.track-element {
    display: flex;
-   border-radius: 4px;
-   background: #1c1c1c;
-   width: 498px;
-   /* padding: 36px; */
-   height: 48px;
-   margin-bottom:  24px;
+   margin-bottom: 24px;
 }
-.playlistTitleElement {
-   color: white;
-   margin-left: 60px;
+.track-title-and-player-block {
+   margin-left: 12px;
 }
-.artistName {
-   color: #FFF;
+.artist-name,
+.track-name {
+   color: #fff;
    font-family: SF UI Display;
    font-size: 12px;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
 }
-
-.title {
-   /* margin-left: 4px; */
-   color: #8A8A8A;
-font-family: SF UI Display;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.track-name {
+   color: #8a8a8a;
+   font-weight: 400;
 }
-
-.audio {
+.fire {
+   margin-right: 6px;
+}
+.playlist-word {
+   margin-top: 7px;
+   margin-bottom: 23px;
+   color: #fff;
+   font-family: SF UI Display;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 171.429% */
+}
+.info-about-tracks {
+   color: #8a8a8a;
+   font-family: SF UI Display;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px; /* 171.429% */
+   margin-bottom: 11px;
+}
+.artists-names-part-left,
+.artists-names-part-right {
+   color: #fff;
+   font-family: SF UI Display;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px; /* 150% */
+}
+.artists-names-part-right {
+   color: #8a8a8a;
+}
+audio {
    height: 24px;
    width: 347px;
    margin-top: 10px;
    filter: invert(1);
 }
-
-#playlist1 {
-   width: 534px;
-   height: 516px;
-   flex-shrink: 0;
-   border-radius: 4px;
-background: #1C1C1C;
-padding: 24px 0 0 36px;
-margin: 0px 0px 0 64px;
-}
-#playlist2 {
-   width: 534px;
-   height: 516px;
-   flex-shrink: 0;
-   border-radius: 4px;
-background: #1C1C1C;
-padding: 24px 0 0 36px;
-margin: 0px 64px 0 12px;
-}
-#myPlaylists {
-   display: flex;
-   width: 1280px;
-height: 576px;
-background: #121212;
-/* padding: 96px 64px 36px 64px; */
-}
-.artistAndPlayer {
-   margin-left: 12px;
-}
-header {
-   width: 1280px;
-   height: 48px;
-   background: #1C1C1C;
-backdrop-filter: blur(10px);
-}
 h1 {
    display: flex;
-   color: #FFF;
-height: 96px;
-width: 1280px;
-font-family: SF UI Display;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-background: #121212;
-margin: 0;
-/* margin: 31px 0 29px 64px; */
-/* line-height: normal; */
+   color: #fff;
+   height: 96px;
+   width: 1280px;
+   font-family: SF UI Display;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   background: #121212;
+   padding: 30px 64px;
 }
-.title-my-playlists {
-   margin: 31px 0 0 64px;
+.playlists-header {
+   padding:  12px 64px ;
+   background: #1C1C1C;
+   width: 1280px;
+   height: 48px;
 }
-
-.header {
-   display: flex;
-   margin-left: 64px;
-}
-.title-in-header {
+.playlist-header-logo-title {
    color: #F6BD41;
-
-font-family: SF UI Display;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 8px;
+   font-family: SF UI Display;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: none;
+   margin-left: 8px;
 }
+
+
